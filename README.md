@@ -6,7 +6,7 @@ This example demonstrates how to use Fortran for performance-critical tasks like
 
 A Fortran program to perform matrix multiplication, compile it into a shared library, and then use Python (via the ctypes library) to call the Fortran function and perform the matrix multiplication of two random 𝑛×𝑛 matrices.
 
-Linux -> gfortran -shared -fPIC -o libmatrix_multiply.so matrix_multiply.f90
+Linux -> `gfortran -shared -fPIC -o libmatrix_multiply.so matrix_multiply.f90`
 
-Windows -> gfortran -shared -o libmatrix_multiply.dll matrix_multiply.f90
+Windows -> `gfortran -shared -o libmatrix_multiply.dll matrix_multiply.f90`
 
