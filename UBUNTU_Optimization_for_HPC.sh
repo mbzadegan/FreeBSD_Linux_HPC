@@ -6,7 +6,7 @@ if [[ $EUID -ne 0 ]]; then
    exit 1
 fi
 
-echo "Starting HPC Customization for Ubuntu..."
+echo "Starting HPC Customization for Ubuntu...."
 
 # Step 1: Update and install essential packages
 echo "Updating system and installing essential packages..."
