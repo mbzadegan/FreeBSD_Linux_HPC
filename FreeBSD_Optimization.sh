@@ -3,7 +3,7 @@
 echo "Applying FreeBSD Multi-Thread Optimization.."
 
 # 1. Increase Kernel Performance for Multi-Threading
-echo "Configuring kernel scheduler and performance settings..."
+echo "Configuring kernel scheduler and performance settings.."
 sysctl kern.sched.name=ULE
 sysctl kern.sched.affinity=1
 sysctl kern.hz=1000
