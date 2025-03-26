@@ -8,7 +8,7 @@ sysctl kern.sched.name=ULE
 sysctl kern.sched.affinity=1
 sysctl kern.hz=1000
 
-# 2. Increase Max Threads and Processes
+# 2. Increase Max CPU Threads and Processes
 echo "Increasing thread and process limits..."
 sysctl kern.maxproc=100000
 sysctl kern.maxthreads=200000
