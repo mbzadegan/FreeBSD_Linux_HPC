@@ -2,7 +2,7 @@
 
 # This script is intended to apply security hardening best practices to an Ubuntu system.
 
-# Exit on any error
+# Exit on any error.
 set -e
 
 # 1. Update the system
