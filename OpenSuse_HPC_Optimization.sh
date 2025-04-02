@@ -12,7 +12,7 @@ echo "Tuning openSUSE for Multi-threading and HPC Performance..."
 for cpu in /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor; do
     echo performance > "$cpu"
 done
-echo "CPU governor set to performance."
+echo "CPU governor set to performance"
 
 # Enable NUMA balancing
 echo 1 > /proc/sys/kernel/numa_balancing
