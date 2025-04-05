@@ -5,7 +5,7 @@ echo "Updating system packages..."
 sudo pacman -Syu --noconfirm
 
 # Install necessary tools and libraries
-echo "Installing essential packages for HPC..."
+echo "Installing essential packages for HPC.."
 sudo pacman -S --noconfirm \
     base-devel \
     gcc \
