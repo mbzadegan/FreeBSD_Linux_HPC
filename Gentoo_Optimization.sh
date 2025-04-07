@@ -4,7 +4,7 @@
 
 set -e
 
-echo "Starting system optimization..."
+echo "Starting system optimization.."
 
 # 1. Optimize Kernel Parameters
 sysctl -w kernel.sched_autogroup_enabled=0
