@@ -85,7 +85,7 @@ If you are using a multi-core processor, make sure to enable proper settings for
    - Use the `SCHED_DEADLINE` policy for real-time tasks, or `SCHED_FIFO` for thread scheduling.
 
 ```bash
-# Example for multi-core optimization
+# Example for multi-core optimization.
 Processor type and features  --->
     Symmetric multi-processing support (SMP)  --->
     <* > High Resolution Timer
