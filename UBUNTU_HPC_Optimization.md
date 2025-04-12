@@ -4,7 +4,7 @@ To optimize Ubuntu for excellent performance in multi-threaded programming and h
 
 ### 1. **Update Your System**
 
-Start by ensuring that your system is fully up to date. You can do this by running the following commands:
+Start by ensuring that your system is entirely up to date. You can do this by running the following commands:
 
 ```bash
 sudo apt update && sudo apt upgrade -y
