@@ -6,6 +6,7 @@ if [[ $EUID -ne 0 ]]; then
    exit 1
 fi
 
+
 echo "Tuning openSUSE for Multi-threading and HPC Performance..."
 
 # Set CPU governor to performance
