@@ -60,5 +60,5 @@ kern.ipc.maxsockbuf=16777216
 vfs.aio.enable_unsafe=1
 EOF
 
-echo "Optimization complete. Reboot for changes to take effect."
+echo "Optimization is complete if you do not get any errors through this process. Reboot for changes to take effect."
 
