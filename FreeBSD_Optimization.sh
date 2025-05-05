@@ -1,6 +1,6 @@
 #!/bin/sh
 
-echo "Applying FreeBSD Multi-Thread Optimization.."
+echo "Applying FreeBSD Multi-Thread Optimization."
 
 # 1. Increase Kernel Performance for Multi-Threading
 echo "Configuring kernel scheduler and performance settings.."
