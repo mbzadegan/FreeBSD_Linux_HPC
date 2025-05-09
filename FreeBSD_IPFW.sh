@@ -1,6 +1,6 @@
 #!/bin/sh
 
-echo "Configuring FreeBSD Firewall with IPFW for High Performance."
+echo "Configuring FreeBSD Firewall with IPFW for High Performance.."
 
 # Enable IPFW in rc.conf
 sysrc firewall_enable="YES"
