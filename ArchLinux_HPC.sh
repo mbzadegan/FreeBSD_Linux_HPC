@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Update system
-echo "Updating system packages..."
+echo "Updating system packages.."
 sudo pacman -Syu --noconfirm
 
 # Install necessary tools and libraries
