@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# This script is intended to apply security hardening best practices to an Ubuntu system.
+# This script is intended to apply security hardening best practices to an Ubuntu system
 
 # Exit on any error.
 set -e
